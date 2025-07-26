@@ -5,7 +5,7 @@ const dotenv = require('dotenv');
 const http = require('http');
 const socketIo = require('socket.io');
 
-const globalRouter = require('./index');
+const globalRouter = require('./routes/index');
 
 dotenv.config();
 
